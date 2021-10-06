@@ -1,0 +1,14 @@
+.skills{
+  padding: 20px;
+}
+
+.item_label{
+  font-size: 11px;
+}
+
+.bar1{
+  margin: 3px 0 5px 0;
+  background-color: darkorange;
+  height: 5px;
+  width: 80%;
+}

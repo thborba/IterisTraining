@@ -1,0 +1,29 @@
+<header class="header">
+  <h1 class="title">Jogo da Forca</h1>
+</header>
+<main class="main">
+  <section class="container d-flex column">
+
+      <div class="word d-flex row">
+        <div *ngFor="let item of svc.letters; let index = index">
+          <div *ngIf="item.letter != ' '; then thenBlock else elseBlock"></div>
+            <ng-template #thenBlock>
+              <app-letter [letter]="item"></app-letter>
+            </ng-template>
+            <ng-template #elseBlock>
+              <app-space></app-space>
+            </ng-template>
+        </div>
+
+      </div>
+      <span class="hint d-flex">Dica: {{svc.hint}}</span>
+
+      <div class="player-newGame" (click)= "svc.reloadGame()">Nova Palavra</div>
+      <app-player></app-player>
+
+
+      <app-dummy></app-dummy>
+
+  </section>
+
+</main>

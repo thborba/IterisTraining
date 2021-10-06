@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Formulário Básico</h1>
+    </header>
+    <main class="main">
+
+        <section class="d-flex">
+            <form class="form">
+
+                <div class="d-mtop30">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <div>
+                            <label for="nome">Nome: </label>
+                            <input name="nome" id="nome" type="text" required>
+                        </div>
+                        <div>
+                            <label for="endereco">Endereco: </label>
+                            <input name="endereco" id="endereco" type="text" required>
+                        </div>
+                        <div>
+                            <label for="Cidade">Cidade: </label>
+                            <input name="nome" id="nome" type="text" required>
+                        </div>
+                        <div>
+                            <label for="nome">Estado: </label>
+                            <select name="select">
+                                <option value="1">São Paulo</option>
+                                <option value="2">Minas Gerais</option>
+                                <option value="3">Rio de Janeiro</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+
+                </div>
+
+                <div class="d-mtop30">
+                    <fieldset>
+                        <legend>Dados Profissionais</legend>
+                        <div>
+                            <span>Natureza do Cargo: </span>
+                            <div class="form-radio d-flex">
+                                <input type="radio" id="gerencia" name="selection" value="gerencia">
+                                <label for="selection">Gerência</label><br>
+                                <input type="radio" id="financeiro" name="selection" value="financeiro">
+                                <label for="selection">Financeiro</label><br>
+                                <input type="radio" id="recepcao" name="selection" value="recepcao">
+                                <label for="selection">Recepção</label>
+                                <input type="radio" id="administrativo" name="selection" value="administrativo">
+                                <label for="selection">Administrativo</label>
+                                <input type="radio" id="juridico" name="selection" value="juridico">
+                                <label for="selection">Jurídico</label>
+                            </div>
+                        </div>
+
+
+
+                        <div class="d-mtop15">
+                            <span>Área de interesse:</span>
+                            <div>
+
+                                <input type="checkbox" id="comp" name="comp">
+                                <label for="comp">Computação</label>
+
+
+                                <input type="checkbox" id="bio" name="bio">
+                                <label for="bio">Biologia</label>
+
+
+
+                                <input type="checkbox" id="amb" name="amb">
+                                <label for="amb">Meio Ambiente</label>
+
+
+
+                                <input type="checkbox" id="eng" name="eng">
+                                <label for="eng">Engenharia</label>
+
+                                <input type="checkbox" id="hist" name="hist">
+                                <label for="hist">História</label>
+
+                            </div>
+                        </div>
+
+                        <div class="d-mtop15 d-flex d-align_end">
+                            <label for="curriculo">Mini-curriculo: </label>
+                            <input class="form-bigger_input" name="curriculo" id="curriculo" type="text" required>
+                        </div>
+                </div>
+
+
+
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>

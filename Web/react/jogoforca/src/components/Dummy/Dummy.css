@@ -1,0 +1,31 @@
+#head{
+    position: absolute;
+    left: 190px;
+    top: 150px;
+  }
+  #body{
+    position: absolute;
+    left: 180px;
+    top: 235px;
+  }
+  #rightArm{
+    position: absolute;
+    left: 210px;
+    top: 280px;
+  }
+  #leftArm{
+    position: absolute;
+    left: 138px;
+    top: 280px;
+  }
+  #rightLeg{
+    position: absolute;
+    left: 210px;
+    top: 425px;
+  }
+  #leftLeg{
+    position: absolute;
+    left: 138px;
+    top: 425px;
+  }
+  

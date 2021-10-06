@@ -1,0 +1,38 @@
+.d-flex {
+    display: flex;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+.form-radio{
+    flex-direction: row;
+}
+.form{
+    margin-left: 200px;    
+
+}
+
+.d-mtop30{ 
+    margin-top: 30px;
+}
+
+.d-mtop15{ 
+    margin-top: 15px;
+    
+}
+
+.d-align_end{
+    align-items: flex-end;
+    
+}
+
+.form-bigger_input{
+    margin-left: 10px;
+    height: 100px;
+    width: 70%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Forca</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">Jogo da Forca</h1>
+    </header>
+    <main class="main">
+        <section class="container d-flex column">
+
+            <div class="word d-flex row">
+            </div>
+            <span class="hint d-flex"></span>
+            <div class="player-newGame">Nova Palavra</div>
+   
+            <div class="player d-flex column">
+                
+                <span class="player-inputLabel">Digite uma letra: </span> &nbsp;
+
+                <div class="player-input d-flex row">
+                    <input type="text" id="digit" class="player-digit" maxlength="1">
+                    <button class="player-button">Enviar</button>
+                </div>
+                
+                <span class="player-typedLettersLabel">Letras digitadas:</span>
+                <span class="player-typedLetters"></span>
+   
+            </div>
+            <div class="dummy">
+                <img id="head" src="images/head.png" hidden>
+                <img id="body" src="images/corpo.png" hidden>
+                <img id="rightArm" src="images/bracoDireita.png" hidden>
+                <img id="leftArm" src="images/bracoEsquerdo.png" hidden>
+                <img id="rightLeg" src="images/pernaDireita.png" hidden>
+                <img id="leftLeg" src="images/pernaEsquerda.png" hidden>
+            </div>
+
+            
+        </section>
+
+    </main>
+    <footer class="footer">
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.background{
+    height: 25vh;
+    width: 250px;
+    background: linear-gradient(60deg, #FFC0CB 50%, #00FFFF 50%);;
+    clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+  }
+  
+  .name{
+    height: 20vh;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: purple;
+  }
+
+  .prof{
+    height: 30vh;
+    font-size: 18px;
+    color: darkorange;
+  }
+  .info{
+    padding: 24px;
+  }
+  .info_item{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  

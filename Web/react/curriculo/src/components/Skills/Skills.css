@@ -1,0 +1,15 @@
+.skills{
+    padding: 30px;
+  }
+  
+  .item_label{
+    font-size: 12.5px;
+  }
+  
+  .bar1{
+    margin: 3px 0 5px 0;
+    background-color: darkorange;
+    height: 5px;
+    width: 80%;
+  }
+  

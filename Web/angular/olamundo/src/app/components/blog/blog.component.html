@@ -1,0 +1,8 @@
+<fieldset>
+  <legend>Personalia:</legend>
+    <input type="text" [(ngModel)]="novoPost.titulo" placeholder="Titulo" />
+    <input type="text" [(ngModel)]="novoPost.imagem" placeholder="Url da imagem" />
+  <textarea [(ngModel)]="novoPost.texto" placeholder="Texto principal"></textarea>
+  <button (click)="criarNovo()">Criar nova postagem</button>
+</fieldset>
+<app-blog-post *ngFor="let item of blogPosts" [post]="item"></app-blog-post>

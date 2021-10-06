@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.section_title{
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+  margin-bottom: 10px;
+}

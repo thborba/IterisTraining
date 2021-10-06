@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 15vh;
+    text-align: center;
+    background-color:  rgb(119, 0, 255);
+}
+.title{
+    line-height: 100px;
+}
+.main{
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    align-items: center;
+}
+
+.word{
+    margin-top: 85px;
+    height: 1;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letter{
+    text-align: center;
+    margin-top: 10px;
+    height: 30px;
+    width: 25px;
+    margin-right: 10px;
+    font: bold 16px arialsans-serif;
+    color: rgb(119, 0, 255);
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.space{
+    height: 30px;
+    width: 25px;
+    margin-right: 10px;
+    border: none;
+}
+
+.hint{
+    color: rgb(119, 0, 255);
+    width: 20%;
+    padding: 20px;
+    font: bold 18px arial, sans-serif;
+    justify-content: center;
+}
+
+.player{
+    height: 30%;
+    width: 20%;
+    margin-top: 40px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: rgba(59, 182, 11, 0.116);
+    border: rgb(119, 0, 255) 1px solid;
+    
+}
+.player-inputLabel{
+    font: bold 20px arial, sans-serif;
+    color: rgb(119, 0, 255);
+}
+.player-input{
+    align-items: flex-end;
+}
+
+.player-digit{
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+
+}
+
+.player-digit:focus{
+    outline-style: auto;
+    outline-width: initial;
+    outline-color: rgb(119, 0, 255);
+
+}
+
+.player-button{
+    padding: 5px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5%;
+    background:rgb(119, 0, 255);
+    color: white;
+    font: bold 13px arial, sans-serif;
+    text-shadow:none;
+}
+
+.player-typedLettersLabel{
+    margin-top: 20px;
+    font: bold 18px arial, sans-serif;
+    color: rgb(119, 0, 255);
+    
+}
+.player-typedLetters{
+    margin-top: 8px;
+    font: bold 15px arial, sans-serif;
+}
+
+.player-newGame{
+    padding: 5px;
+    border: none;
+    border-radius: 5%;
+    background:rgb(119, 0, 255);
+    color: white;
+    font: bold 13px arial, sans-serif;
+    text-shadow:none;
+}
+
+#head{
+    position: absolute;
+    left: 190px;
+    top: 150px;
+}
+#body{
+    position: absolute;
+    left: 180px;
+    top: 235px;
+}
+#rightArm{
+    position: absolute;
+    left: 210px;
+    top: 280px;
+}
+#leftArm{
+    position: absolute;
+    left: 138px;
+    top: 280px;
+}
+#rightLeg{
+    position: absolute;
+    left: 210px;
+    top: 425px;
+}
+#leftLeg{
+    position: absolute;
+    left: 138px;
+    top: 425px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}

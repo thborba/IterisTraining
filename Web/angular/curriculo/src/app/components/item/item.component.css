@@ -1,0 +1,18 @@
+.item{
+  margin-bottom: 7px;
+}
+
+.item_title{
+  font-size: 12px;
+}
+.item_period{
+  font-size: 9px;
+}
+.item_description{
+  width: 75%;
+  font-size: 11px;
+  padding: 5px;
+  margin-top: 5px;
+  border-left: 2px purple solid;
+
+}

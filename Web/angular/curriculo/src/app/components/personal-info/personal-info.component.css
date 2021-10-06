@@ -1,0 +1,25 @@
+.background{
+  height: 30vh;
+  width: 200px;
+  background: linear-gradient(60deg, #FFC0CB 50%, #00FFFF 50%);;
+  clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+}
+
+.name{
+  height: 30vh;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: purple;
+}
+
+.info{
+  padding: 20px;
+}
+
+.info_item{
+  font-weight: bold;
+  font-size: 12px;
+  padding: 2px;
+}

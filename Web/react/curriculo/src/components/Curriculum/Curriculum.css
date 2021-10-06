@@ -1,0 +1,12 @@
+
+.container{
+    height: 842px;
+    width: 595px;
+  }
+  
+  .curriculum{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border: 1px solid black;
+  }

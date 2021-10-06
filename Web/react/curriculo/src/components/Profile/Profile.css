@@ -1,0 +1,11 @@
+
+.profile{
+    justify-content: center;
+    height: 25vh;
+    padding:  30px;
+}
+
+.profile_info{
+    font-size: 12px;
+    width: 90%;
+  }

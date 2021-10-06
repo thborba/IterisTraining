@@ -1,0 +1,35 @@
+
+.container{
+  height: 630px;
+  width: 650px;
+}
+
+.curriculum{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.curriculum_left{
+  flex: 3.5;
+
+}
+
+.leftHorizontalLine{
+  height: 2px;
+  width: 80%;
+  background-color: black;
+  margin-left: 20px
+}
+
+.curriculum_right{
+  flex: 6.5;
+}
+
+.rightHorizontalLine{
+  height: 2px;
+  width: 80%;
+  background-color: black;
+  margin-left: 25px
+}

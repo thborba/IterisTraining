@@ -1,0 +1,11 @@
+.cell{
+  width: 162.5px;
+  height: 162.5px;
+  margin: 5px;
+  border-radius: 20%;
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.884);
+  font-size: 100px;
+  text-align: center;
+}
+

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 70vh;
+    width: 500px;
+
+}
+.container{
+
+    height: 100%;
+}
+
+.row{  
+    height: 400px;
+}
+
+.cell{
+    width: 400px;
+    margin: 5px;
+    border-radius: 20%;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.d-flex_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.X{
+    font-size: 80px;
+    color: red;
+}
+.O{
+    font-size: 80px;
+    color:  white;
+}

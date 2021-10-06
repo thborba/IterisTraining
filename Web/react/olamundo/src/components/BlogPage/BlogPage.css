@@ -1,0 +1,4 @@
+.paginaPostagens fieldset {
+  display: flex;
+  flex-direction: column;
+}

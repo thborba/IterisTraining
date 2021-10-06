@@ -1,0 +1,13 @@
+<div class="player d-flex column">
+
+  <span class="player-inputLabel">Digite uma letra: </span> &nbsp;
+
+  <div class="player-input d-flex row">
+    <input type="text" id="digit" class="player-digit" maxlength="1" [(ngModel)]="input" />
+    <button class="player-button" (click)="svc.newPlay(this.input)">Enviar</button>
+  </div>
+
+  <span class="player-typedLettersLabel">Letras digitadas:</span>
+  <span class="player-typedLetters"> <a *ngFor="let item of svc.typedLetters"> {{item}}</a></span>
+
+</div>

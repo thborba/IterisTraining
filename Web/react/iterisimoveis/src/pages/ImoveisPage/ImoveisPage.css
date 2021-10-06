@@ -1,0 +1,9 @@
+.listaImoveis {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.listaImoveis__imovelCard {
+    margin: 5px;
+}

@@ -1,0 +1,44 @@
+
+
+.header{
+  height: 15vh;
+  text-align: center;
+  background-color:  rgb(119, 0, 255);
+}
+.title{
+  line-height: 100px;
+}
+.main{
+  height: 100vh;
+}
+
+.container{
+  height: 100%;
+  align-items: center;
+}
+
+.word{
+  margin-top: 85px;
+  height: 1;
+  width: 30%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hint{
+  color: rgb(119, 0, 255);
+  width: 20%;
+  padding: 20px;
+  font: bold 18px arial, sans-serif;
+  justify-content: center;
+}
+
+.player-newGame{
+  padding: 5px;
+  border: none;
+  border-radius: 5%;
+  background:rgb(119, 0, 255);
+  color: white;
+  font: bold 13px arial, sans-serif;
+  text-shadow:none;
+}

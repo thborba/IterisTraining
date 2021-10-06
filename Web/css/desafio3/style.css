@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.main{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.sideBar{
+    flex: 3;
+
+}
+
+.sideBar_nav{
+    flex: 1;
+    background-color: rgba(42, 47, 50, 0.9);
+}   
+
+.sideBar_search{
+    flex: 0.7;
+    border: black 1px solid;
+}
+
+.sideBar_list{
+    flex: 8.3;
+
+}
+
+.chat{
+    flex: 7;
+}
+
+.chat_nav{
+    flex: 1;
+    background-color: rgba(42, 47, 50, 0.9);
+}
+
+.chat_messages{
+    flex: 8;
+}
+
+.chat_input{
+    flex: 1;
+    border: black 1px solid;
+}
+
+
+
+.d-flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
